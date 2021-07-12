@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Solicitar Trabajo</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Solicitar Trabajo</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <center>
+      <div class="campo">
+        <label><strong>En cual parte de la aplicacion le gustaria trabajar?</strong></label>
+        <label>
+            <input type="radio" name="devweb" value="frontend" checked>Front-end
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="backend">Back-end
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="fullstack">Fullstack
+        </label>
+    </div>
+    <div class="campo">
+        <label for="nivel"><strong>Nivel</strong></label>
+        <select id="nivel" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Junior</option>
+          <option>Senior</option>
+          <option>Master</option>
+        </select>
+    </div>
+    
+    <input class="botton" type="submit" value="Enviar">
+
+    </center>
+    
+  </section>
+
+</body>
+</html>
